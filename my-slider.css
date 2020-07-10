@@ -41,7 +41,8 @@
   height: 100%;
   overflow: hidden;
   position: absolute;
-  display: block;
+  display: flex;
+  align-items: center;
   top: 0;
   bottom: 0;
   margin: 0 !important;
