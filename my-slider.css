@@ -42,13 +42,21 @@
   overflow: hidden;
   position: absolute;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   top: 0;
   bottom: 0;
   margin: 0 !important;
   padding: 0 !important;
   background-color: black;
   text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ism-slider li.ism-slide {
+    align-items: center;
+  }
+ 
+  
 }
 
 .ism-slider .ism-img-frame {
