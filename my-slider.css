@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .ism-slider li.ism-slide {
     align-items: center;
   }
